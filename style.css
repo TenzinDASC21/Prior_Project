@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#logo{
+    width:300px;
+    height: 100px;
+}
+
+div{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#joestars{
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+}
+
+#biggest_div{
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+    border-left: 1px solid #B1D7FE;
+    border-right: 1px solid #B1D7FE;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    transition: border 500ms;
+}
+
+#big_div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.items:hover {
+    background-color: gray;
+    opacity: 0.5;
+}
+
+#bigpic{
+    display: inline-flex;
+    justify-content: center;
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+}
+
+#smallpic{
+    display: inline-flex;
+    justify-content: center;
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+}
+
+p{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 20px;
+}
+ol{
+    font-size: 20px;
+}
+
+button{
+    display:block;
+}
+
+@media(max-width:1030px){
+    p {
+        font-size: 50%;
+    }
+    ol{
+        font-size: 50%;
+    }
+    a{
+        font-size: 50%;
+    }
+    h4{
+        font-size: 50%;
+    }
+    #biggest_div{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media(max-width:320px){
+    p {
+        font-size: 50%;
+    }
+    ol{
+        font-size: 50%;
+    }
+    a{
+        font-size: 40%;
+    }
+    h4{
+        font-size: 50%;
+    }
+    #biggest_div{
+        flex-direction: column;
+        align-items: center;
+    }
+    button{
+        font-size: 50%;
+    }
+    
+}
